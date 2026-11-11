@@ -46,7 +46,23 @@ c08a654 | 2020-11-21 | Kurtyanik | Файл создан пустым
 
 
 ## Листинг использованных команд
-
+git config --global user.name
+git config --global user.email
+git clone
+git branch -a
+git switch
+git log --oneline
+git show
+git switch master
+git merge branch1
+git add
+git commit
+git status
+git branch -d branch1
+git revert --no-edit HEAD
+git switch -c report
+git log --pretty=format:"%h | %ad | %an | %s" --date=short
+git push
 
 
 ## Вывод
